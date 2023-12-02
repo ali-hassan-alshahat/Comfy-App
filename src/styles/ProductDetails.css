@@ -1,0 +1,97 @@
+.detail-nav  {
+  color: var(--second-dark);
+}
+.detail-nav a {
+  text-decoration: none;
+  color: var(--second-dark);
+}
+.detail-nav a:hover {
+  color: var(--main-gold);
+}
+.details-span {
+  color: var(--main-gold);
+}
+.details-discount-price {
+  color: var(--main-gold);
+}
+.details-without-price {
+  color: #222;
+  font-weight: 700;
+}
+.details-before-price {
+  text-decoration: line-through;
+  color: #888;
+}
+.details-text {
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  color : #666
+}
+.details-btn {
+  text-align: center;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+}
+.details-color-flex span:last-child {
+  width: 0;
+  height: 0;
+  cursor: none;
+  outline: none;
+}
+.details-active {
+  border: 2px solid var(--main-gold) !important
+}
+.details-span-active {
+  outline-color: black !important;
+}
+.details-add-cart {
+  transition: all 0.15s ease;
+}
+.details-add-cart:hover {
+  background-color: var(--main-gold) !important;
+}
+.details-checkbox[type=checkbox]:checked {
+  background-color: var(--main-dark);
+  border-color: var(--main-dark);
+}
+.details-label {
+  color: #888;
+  cursor: pointer;
+}
+.details-buy {
+  transition: all 0.15s ease;
+}
+.details-buy:hover {
+  background-color: var(--main-gold) !important;
+}
+.details-vendor {
+  width: 8.5rem;
+  color: #444;
+}
+.details-vendor-name {
+  color: #666;
+}
+.details-description::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+.details-description-text {
+  color: #444;
+}
+@media (min-width: 992px) {
+  .details-description-text {
+    width: 75%;
+  }
+}

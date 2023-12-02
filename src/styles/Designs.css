@@ -1,0 +1,30 @@
+.designs-imgs {
+  min-height: 200px;
+  transition: all 0.5s ease;
+}
+.designs-imgs img {
+  transition: all 0.5s ease;
+}
+.designs-imgs:hover img{
+  transform: scale(1.1);
+}
+.design-overlay {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0,0,0,.5);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.designs-imgs:hover .design-overlay {
+  opacity: 1;
+}
+.design-insta {
+  opacity: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}

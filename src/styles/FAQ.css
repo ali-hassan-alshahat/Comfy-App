@@ -1,0 +1,49 @@
+.faq-img {
+  background-image: url("../assets/page-header.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.faq-img h1 {
+  font-size: 3rem;
+}
+@media (max-width : 767px) {
+  .faq-img h1 {
+    font-size: 2.2rem;
+  }
+}
+.faq-img nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0,0.5);
+  transition: all 0.15s ease;
+}
+.faq-img nav a:hover {
+  color: var(--main-gold);
+}
+.faq-first-box h1 {
+  letter-spacing: 3px;
+  margin-bottom: 50px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+.faq-first-box p {
+  color: #999;
+  margin-bottom: 70px;
+  margin-right: 20px;
+  width: fit-content;
+}
+.faq-links a {
+  color: #999;
+  display: block;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+.faq-links a:hover {
+  color: var(--main-gold);
+  padding-left: 10px;
+}
+.faq-second-box p {
+  color: #666
+}

@@ -1,0 +1,68 @@
+.about-img {
+  background-image: url("../assets/page-header.jpg");
+  background-size: cover;
+  height: 50vh;
+}
+.about-img h1 {
+  font-size: 3rem;
+}
+@media (max-width : 767px) {
+  .about-img h1 {
+    font-size: 2.2rem;
+  }
+}
+.about-img nav a {
+  text-decoration: none;
+  color: rgba(0, 0, 0,0.5);
+  transition: all 0.15s ease;
+}
+.about-img nav a:hover {
+  color: var(--main-gold);
+}
+.about-ul button{
+  color: #222;
+}
+.about-ul .nav-link:hover {
+  color: #222;
+}
+.about-ul .active {
+  color: white !important;
+  background-color: #222 !important;
+}
+.about-text {
+  background-color: #fff8e4;
+}
+.about-container {
+  width: 60% !important;
+  height: 60%;
+  text-align: center;
+  margin: auto;
+}
+.about-container h1 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.about-container p {
+  color: #444;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  margin: 0 0 50px;
+  text-align: center;
+}
+@media (max-width : 1024px) {
+  .about-container {
+    width: 100% !important;
+    margin: auto;
+    text-align: center;
+  }
+  .about-container p {
+    font-size: 1rem;
+    line-height: 27px;
+  }
+  .about-container h1 {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}

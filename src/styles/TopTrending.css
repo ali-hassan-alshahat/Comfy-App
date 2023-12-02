@@ -1,0 +1,70 @@
+.trending-hover {
+  opacity: 0;
+  transition: opacity ease 0.5s, transform ease 0.7s;
+  transition: opacity ease 0.5s, transform ease 0.7s,
+  -webkit-transform ease 0.7s;
+}
+.trend-box:hover .trending-hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.your-class-next,
+.your-class-prev {
+  padding: 10px;
+  background-color: black;
+}
+.your-class-next:hover,
+.your-class-prev:hover {
+  background-color: #c7ab62;
+}
+.your-class-next svg,
+.your-class-prev svg {
+  fill: white;
+}
+.trend-stock {
+  background-color: #c7ab62;
+  top: 1.2rem;
+  left: 1.2rem;
+  color: white;
+  font-weight: 600 !important;
+  border-radius: 6px;
+}
+.trend-title {
+  color: #666;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.trend-title:hover {
+  color: var(--main-gold);
+}
+.trend-price {
+  text-align: center;
+  font-weight: bold;
+}
+.trend-cart {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  width: 86%;
+  padding: 5px;
+  opacity: 0;
+  transition: opacity .5s ease;
+}
+.trend-box:hover .trend-cart {
+  opacity: 1;
+}
+.trend-cart:hover {
+  background-color: #c7ab62;
+  color: white;
+}
+
+@media (max-width : 992px) {
+  .trend-cart {
+    opacity: 1;
+  }
+}

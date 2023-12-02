@@ -1,0 +1,80 @@
+.section-box img {
+  transition: transform 0.5s ease;
+}
+.section-box:hover img {
+  transform: scale(1.15);
+}
+.section-text {
+  opacity: 1;
+  position: absolute;
+  left: 10%;
+}
+.section-text h4{
+  font-size: 16px;
+  font-weight: 700;
+  color: #c7ab62;
+}
+.section-text a {
+  font-size: 16px;
+  font-weight: 600;
+  transition: color 0.2s ease;
+  text-decoration: none;
+  color: black;
+}
+.section-text a:hover {
+  color: #c7ab62;
+}
+.section-chairs-text {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  bottom: 10px;
+  top: 40px;
+  left: 40px;
+  right: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+}
+.section-chairs-text p {
+  background-color: #c7ab62;
+  text-align: center;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 2px;
+  font-weight: 700;
+  min-width: 150px;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+.section-chairs-text h3 {
+  font-weight: 400;
+}
+.section-chairs-text a {
+  opacity: 0;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+.section-chairs-text a:hover {
+  color: #c7ab62;
+}
+.second-section-box img {
+  transition: all 0.5s ease;
+}
+.second-section-box:hover img {
+  transform: scale(1.15);
+}
+.second-section-box:hover .section-chairs-text a {
+  opacity: 1;
+}
+@media (max-width : 500px) {
+  .section-chairs-text a {
+    opacity: 1;
+    color: #c7ab62;
+  }
+  .section-chairs-text h3 {
+    margin: 0;
+  }
+}

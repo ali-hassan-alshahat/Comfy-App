@@ -1,0 +1,29 @@
+.cart-table {
+  min-height: 80vh;
+  padding: 4rem 0;
+}
+.cart-img-details {
+  width: 5rem;
+  height: 5rem;
+}
+.cart-qty-btn:hover svg {
+  color: var(--main-gold);
+  transition: all .15s ease;
+}
+.cart-remove {
+  cursor: pointer;
+}
+.cart-remove:hover {
+  color: var(--main-gold) !important;
+}
+.cart-continue:hover {
+  transition: all 0.15s ease;
+  background-color: var(--main-gold) !important;
+}
+.cart-total-amount {
+  color : var(--main-gold)
+}
+.cart-title-hover:hover {
+  color: var(--main-gold) !important;
+  transition: all 0.15s ease;
+}

@@ -1,0 +1,6 @@
+.softwares-imgs img {
+  transition: transform ease 0.5s;
+}
+.softwares-imgs:hover img {
+  transform: scale(1.2);
+}

@@ -1,0 +1,34 @@
+.footer-background {
+  background-color: #222;
+}
+.footer-text p {
+  color: #999;
+}
+.footer-text h6 {
+  color: white;
+}
+.footer-icons a {
+  color: white;
+}
+.footer-second-box p {
+  color: #999;
+}
+.footer-second-box a {
+  color: #999;
+  transition: all 0.3s ease;
+}
+.footer-second-box a:hover {
+  color: #c7ab62;
+}
+.footer-third-box p {
+  color: #999;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-third-box p:hover {
+  color: #c7ab62;
+  padding-left: 10px;
+}
+.footer-copyright {
+  color : #999
+}
