@@ -79,37 +79,37 @@ export const Contact = () => {
                 <div className="pt-3">
                   <Row className="mx-0">
                     <div className="col-md-3 col-lg-2">
-                      <FaLocationDot size={"36px"}/>
+                      <FaLocationDot size={"32px"}/>
                     </div>
                     <div className="col-md-9 col-lg-10">
-                      <h3 className="d-block fs-5 pt-1">Address</h3>
+                      <h3 className="d-block fs-5 pt-2 pt-md-0">Address</h3>
                       <p>Cairo Festival City, New Cairo, Egypt</p>
                     </div>
                   </Row>
                   <hr />
                   <Row className="mx-0">
                     <div className="col-md-3 col-lg-2">
-                      <FaHeadphones size={"36px"} />
+                      <FaHeadphones size={"32px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
-                    <h3 className="d-block fs-5 pt-1">Phone</h3>
+                    <h3 className="d-block fs-5 pt-2 pt-md-0">Phone</h3>
                       <p>+20 1003533427</p>
                     </div>
                   </Row>
                   <hr />
                   <Row className="mx-0">
                     <div className="col-md-3 col-lg-2 ">
-                      <FaRegEnvelope size={"36px"} />
+                      <FaRegEnvelope size={"32px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
-                    <h3 className="d-block fs-5 pt-1">Email</h3>
+                    <h3 className="d-block fs-5 pt-2 pt-md-0">Email</h3>
                       <p>comfyproject20@gmail.com</p>
                     </div>
                   </Row>
                   <hr />
                   <Row className="mx-0">
                     <div className="col-md-3 col-lg-2 ">
-                      <FaRegClock size={"36px"} />
+                      <FaRegClock size={"32px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
                     <h3 className="d-block fs-5 pt-1">Opening Hours</h3>
