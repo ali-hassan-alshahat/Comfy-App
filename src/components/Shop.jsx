@@ -103,7 +103,7 @@ export const Shop = ({allItems : {items} , allCategories : {categories, brands}}
             <div className="col-lg-9 col-md-8">
               <div className="mb-5">
                 <div className="d-flex shop-flex mb-4">
-                  <input placeholder='Search Here' type="search" autoFocus className='shop-search' required onChange={handleSearchbar} value={isSearch} />
+                  <input placeholder='Search Here' type="search" className='shop-search' required onChange={handleSearchbar} value={isSearch} />
                   <button type="button" onClick={handleOpening} className='btn border mb-3 shop-filter'><FaFilter />Filter</button>
                   <div onClick={handleOpening} className={isOpen === true ? "cart-overlay modal-backdrop":"d-none"}></div>
                   <div className={isOpen === true ? 'modal cart-modal fs-6 d-block ':"d-none "}>

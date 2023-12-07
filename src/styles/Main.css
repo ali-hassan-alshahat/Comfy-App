@@ -142,9 +142,12 @@
     padding: 6px;
   }
   .main-home {
-    left: 8%;
+    left: 6%;
     right: 0;
     top: 14%;
+  }
+  .main-main {
+    margin-right: -130px;
   }
 }
 

@@ -34,7 +34,7 @@ export const Cart = () => {
         </div>
       </div>
       <div className='container-fluid table-responsive cart-table'>
-        {totalAmount > 1 ?
+        {totalAmount > 0 ?
         <table className='table text-center'>
           <thead>
             <tr>
@@ -49,7 +49,7 @@ export const Cart = () => {
           {cartItems.map((val,i) => {
                 return (
                 <tr className='w-100' key={i}>
-                  <td className='w-25'>
+                  <td className='w-25 pt-1'>
                     <table className='text-center m-0 ms-4'>
                       <tbody>
                         <tr>
@@ -88,15 +88,15 @@ export const Cart = () => {
                       </tbody>
                     </table>
                   </td>
-                  <td>
+                  <td className='pt-4'>
                     <span className={val.discountPrice ?"cart-discount-price fw-semibold justify-content-center " : "d-none"}>${val.discountPrice}</span>
                     <span className={!val.discountPrice ? 'cart-without-price justify-content-center': 'cart-before-price'}>${val.price}</span>
                   </td>
-                  <td>
+                  <td className='pt-4'>
                     <span>{val.stock}</span>
                   </td>
-                  <td>
-                    <div className='input-group justify-content-center text-align-center align-items-center '>
+                  <td className='pt-3'>
+                    <div className='input-group input-group-qty justify-content-center text-align-center align-items-center '>
                       <button type="button" className="btn rounded-0 border-0 cart-qty-btn" onClick={() => {
                         dispatch(decreaseAmount(val))
                         if(val.quantity > 1) {
@@ -110,7 +110,7 @@ export const Cart = () => {
                       }} disabled={val.quantity >= val.stock}><FaPlusSquare size={"22px"} /></button>
                     </div>
                   </td>
-                  <td>
+                  <td className='pt-4'>
                     <strong>
                       ${val.discountPrice ?(val.discountPrice * val.quantity).toFixed(2) : (val.price * val.quantity).toFixed(2)}
                     </strong>
@@ -120,13 +120,11 @@ export const Cart = () => {
               })}
               <tr>
                 <td colSpan={"7"}>
-                  <Row className="justify-content-between mx-0 py-2">
+                  <Row className="justify-content-between mx-0 py-2 align-items-center">
                     <div className="col-4">
-                      <button type="button" className='btn rounded-0 border-0'>
-                      <Link to={"/shop"} className="text-decoration-none rounded-2 cart-continue p-2 text-white bg-dark fw-semibold ">
-                      <FaArrowLeft size={"12px"} /><strong>Continue Shopping</strong>
+                      <Link to={"/shop"} type="button" className="btn text-decoration-none rounded-2 cart-continue p-2 text-white bg-dark fw-semibold ">
+                        <strong><FaArrowLeft size={"12px"} /> Continue Shopping</strong>
                       </Link>
-                      </button>
                     </div>
                     <div className="col-5">
                     <button type="button" onClick={() => {

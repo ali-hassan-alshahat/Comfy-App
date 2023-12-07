@@ -78,7 +78,7 @@ button {
 }
 @media (max-width : 500px) {
   .cart-modal {
-    width: 21rem!important;
+    width: 20rem!important;
     font-size: 0.9rem;
   }
 }
@@ -87,7 +87,7 @@ button {
 }
 .cart-container-opened {
   height: calc(80vh - 100px);
-  max-height: 30rem;
+  max-height: 28rem;
   overflow-y: auto;
 }
 .cart-opened-title {

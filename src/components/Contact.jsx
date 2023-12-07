@@ -82,7 +82,7 @@ export const Contact = () => {
                       <FaLocationDot size={"36px"}/>
                     </div>
                     <div className="col-md-9 col-lg-10">
-                      <h3 className="d-block fs-5">Address</h3>
+                      <h3 className="d-block fs-5 pt-1">Address</h3>
                       <p>Cairo Festival City, New Cairo, Egypt</p>
                     </div>
                   </Row>
@@ -92,7 +92,7 @@ export const Contact = () => {
                       <FaHeadphones size={"36px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
-                    <h3 className="d-block fs-5">Phone</h3>
+                    <h3 className="d-block fs-5 pt-1">Phone</h3>
                       <p>+20 1003533427</p>
                     </div>
                   </Row>
@@ -102,7 +102,7 @@ export const Contact = () => {
                       <FaRegEnvelope size={"36px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
-                    <h3 className="d-block fs-5">Email</h3>
+                    <h3 className="d-block fs-5 pt-1">Email</h3>
                       <p>comfyproject20@gmail.com</p>
                     </div>
                   </Row>
@@ -112,7 +112,7 @@ export const Contact = () => {
                       <FaRegClock size={"36px"} />
                     </div>
                     <div className="col-md-9 col-lg-10">
-                    <h3 className="d-block fs-5">Opening Hours</h3>
+                    <h3 className="d-block fs-5 pt-1">Opening Hours</h3>
                       <p>Sun-Sat: 8.00am - 9.00.pm</p>
                     </div>
                   </Row>

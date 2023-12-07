@@ -20,10 +20,16 @@
   transition: all 0.15s ease;
   background-color: var(--main-gold) !important;
 }
+.cart-continue {
+  white-space: nowrap;
+}
 .cart-total-amount {
   color : var(--main-gold)
 }
 .cart-title-hover:hover {
   color: var(--main-gold) !important;
   transition: all 0.15s ease;
+}
+.input-group-qty {
+  flex-wrap: nowrap !important;
 }
