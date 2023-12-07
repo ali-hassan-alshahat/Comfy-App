@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Navbar } from './Navbar'
+import { Navbar } from '../components/Navbar'
 import "../styles/About.css"
 import { Row } from 'react-bootstrap'
 import about from "../assets/about.jpg"
 import { useState } from 'react'
-import { BottomNav } from './BottomNav'
-import { Footer } from './Footer'
-import { ScrollToTop } from './ScrollToTop'
+import { BottomNav } from '../components/BottomNav'
+import { Footer } from '../components/Footer'
+import { ScrollToTop } from '../components/ScrollToTop'
 export const About = () => {
   const [isActive, setIsActive] = useState("item1")
   const handleActive = val => {

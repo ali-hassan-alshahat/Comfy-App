@@ -2,10 +2,10 @@ import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import "../styles/FAQ.css"
-import { BottomNav } from './BottomNav'
-import { Footer } from './Footer'
-import { Navbar } from './Navbar'
-import { ScrollToTop } from './ScrollToTop'
+import { BottomNav } from '../components/BottomNav'
+import { Footer } from '../components/Footer'
+import { Navbar } from '../components/Navbar'
+import { ScrollToTop } from '../components/ScrollToTop'
 export const FAQ = () => {
   return (
     <div>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/Shop.css"
-import { Navbar } from './Navbar'
-import {Footer} from "./Footer"
+import { Navbar } from '../components/Navbar'
+import {Footer} from "../components/Footer"
 import { Row } from 'react-bootstrap'
 import Dropdown from 'react-bootstrap/Dropdown';
 import { AiOutlinePlus } from 'react-icons/ai'
-import { BottomNav } from './BottomNav'
-import {ScrollToTop} from "./ScrollToTop"
+import { BottomNav } from '../components/BottomNav'
+import {ScrollToTop} from "../components/ScrollToTop"
 import { useDispatch, useSelector } from 'react-redux'
 import { addToCart, selectCartItems } from '../rtk/slices/cartSlice'
 import toast from 'react-hot-toast'

@@ -3,7 +3,7 @@ import './App.css';
 import "./App.css"
 import { Main } from './components/Main';
 import { Route, Routes } from 'react-router-dom';
-import { Shop } from './components/Shop';
+import { Shop } from './pages/Shop';
 import { allCategories, allItems, mainSlider} from './data/data';
 import { BottomNav } from './components/BottomNav';
 import { designs, softwares, topTrending } from './data/data';
@@ -17,9 +17,9 @@ import { Footer } from './components/Footer';
 import { ProductDetails } from './components/ProductDetails';
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { About } from './components/About';
-import { Contact } from './components/Contact';
-import { FAQ } from './components/FAQ';
+import { About } from './pages/About';
+import { Contact } from './pages/Contact';
+import { FAQ } from './pages/FAQ';
 import { Cart } from './pages/Cart';
 import { Toaster } from 'react-hot-toast';
 

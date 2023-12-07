@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar } from './Navbar'
+import { Navbar } from '../components/Navbar'
 import "../styles/Contact.css"
 import { Link } from 'react-router-dom'
 import {Row} from "react-bootstrap"
@@ -9,9 +9,9 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa6";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { FaRegClock } from "react-icons/fa6";
-import {ScrollToTop} from "./ScrollToTop"
-import {Footer} from "./Footer"
-import { BottomNav } from './BottomNav'
+import {ScrollToTop} from "../components/ScrollToTop"
+import {Footer} from "../components/Footer"
+import { BottomNav } from '../components/BottomNav'
 export const Contact = () => {
   const [isName, setIsName] = useState(true)
   const nameRegex = /^[a-z ,.'-]+$/i
