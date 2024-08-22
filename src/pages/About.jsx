@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Navbar } from '../components/Navbar'
 import "../styles/About.css"
 import { Row } from 'react-bootstrap'
-import about from "../assets/about.jpg"
+import about from "../assets/about.webp"
 import { useState } from 'react'
 import { BottomNav } from '../components/BottomNav'
 import { Footer } from '../components/Footer'

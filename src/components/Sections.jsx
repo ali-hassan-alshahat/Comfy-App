@@ -1,13 +1,13 @@
 import React from 'react'
 import "../styles/Sections.css"
 import {Row} from "react-bootstrap"
-import outdoor from "../assets/outdoor.jpg"
-import ecoFriendly from "../assets/eco-friendly.jpg"
-import chairs from "../assets/chairs.jpg"
-import lighting from "../assets/lighting.jpg"
-import decor from "../assets/decor.jpg"
-import sofas from "../assets/sofas.jpg"
-import tables from "../assets/tables.jpg"
+import outdoor from "../assets/outdoor.webp"
+import ecoFriendly from "../assets/eco-friendly.webp"
+import chairs from "../assets/chairs.webp"
+import lighting from "../assets/lighting.webp"
+import decor from "../assets/decor.webp"
+import sofas from "../assets/sofas.webp"
+import tables from "../assets/tables.webp"
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from 'react-router-dom'
 
