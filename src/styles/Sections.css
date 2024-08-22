@@ -9,7 +9,7 @@
   position: absolute;
   left: 10%;
 }
-.section-text h4{
+.section-text h4 {
   font-size: 16px;
   font-weight: 700;
   color: #c7ab62;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 .section-chairs-text p {
-  background-color: #c7ab62;
+  background-color: #ad8a2f;
   text-align: center;
   color: white;
   padding: 6px 8px;
@@ -69,7 +69,7 @@
 .second-section-box:hover .section-chairs-text a {
   opacity: 1;
 }
-@media (max-width : 500px) {
+@media (max-width: 500px) {
   .section-chairs-text a {
     opacity: 1;
     color: #c7ab62;
