@@ -1,15 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
 :root {
-  --main-grey : #444;
-  --main-gold : #c7ab62;
-  --main-dark : #212529;
-  --second-dark : #222
+  --main-grey: #444;
+  --main-gold: #c7ab62;
+  --main-dark: #212529;
+  --second-dark: #222;
 }
 * {
   box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
-  font-family: 'DM Sans', sans-serif;
+}
+body {
+  font-family: "DM Sans", sans-serif !important;
 }
 a {
   color: black;
@@ -30,7 +34,7 @@ button {
 .nav-sticky-bottom {
   display: none;
 }
-@media (max-width : 992px) {
+@media (max-width: 992px) {
   .nav-sticky-bottom {
     display: block;
   }

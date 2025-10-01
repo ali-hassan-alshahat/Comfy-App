@@ -1,0 +1,103 @@
+/* Tabs container */
+.modal-header-tabs {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ebebeb; /* neutral underline */
+  margin-bottom: 20px;
+}
+
+/* Each tab */
+.modal-tab {
+  flex: 1;
+  text-align: center;
+  padding: 15px 0;
+  margin: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+/* Hover effect */
+.modal-tab:hover {
+  color: #777;
+}
+
+/* Active tab underline */
+.modal-tab.active::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-gold);
+}
+
+/* Active tab text color */
+.modal-tab.active {
+  color: var(--main-gold);
+}
+
+/* Modal body */
+.auth-body {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Form styling inside modal */
+.auth-body form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Input fields */
+.auth-body input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-body input:focus {
+  border-color: var(--main-gold);
+  outline: none;
+  box-shadow: 0 0 4px rgba(199, 171, 98, 0.5);
+}
+
+/* Labels */
+.auth-body label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Buttons */
+.auth-body button {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.auth-body button:hover {
+  background-color: var(--main-gold);
+}
+
+/* Center small texts like "Don't have an account?" */
+.modal-body .helper-text {
+  font-size: 13px;
+  text-align: center;
+  color: #777;
+}

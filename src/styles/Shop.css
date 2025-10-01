@@ -6,14 +6,14 @@
 .shop-img h1 {
   font-size: 3rem;
 }
-@media (max-width : 767px) {
+@media (max-width: 767px) {
   .shop-img h1 {
     font-size: 2.2rem;
   }
 }
 .shop-img nav a {
   text-decoration: none;
-  color: rgba(0, 0, 0,0.5);
+  color: rgba(0, 0, 0, 0.5);
   transition: all 0.15s ease;
 }
 .shop-img nav a:hover {
@@ -42,7 +42,7 @@
   opacity: 0;
   transition: opacity ease 0.5s, transform ease 0.7s;
   transition: opacity ease 0.5s, transform ease 0.7s,
-  -webkit-transform ease 0.7s;
+    -webkit-transform ease 0.7s;
 }
 .shop-box:hover .shop-hover {
   opacity: 1;
@@ -73,7 +73,7 @@
   width: 86%;
   padding: 5px;
   opacity: 0;
-  transition: opacity .5s ease;
+  transition: opacity 0.5s ease;
   text-decoration: none;
   color: black;
 }
@@ -84,12 +84,12 @@
   background-color: #c7ab62;
   color: white;
 }
-@media (max-width : 992px) {
+@media (max-width: 992px) {
   .shop-cart {
     opacity: 1;
   }
 }
-.shop-first-box span::after{
+.shop-first-box span::after {
   content: "";
   height: 2px;
   width: 100%;
@@ -106,15 +106,15 @@
 .shop-label:hover {
   font-weight: 700;
 }
-.shop-radio[type=radio]:checked {
+.shop-radio[type="radio"]:checked {
   background-color: var(--main-gold) !important;
   border-color: var(--main-gold) !important;
 }
-.shop-radio-two[type=radio]:checked {
+.shop-radio-two[type="radio"]:checked {
   background-color: var(--main-gold) !important;
   border-color: var(--main-gold) !important;
 }
-.shop-pages a{
+.shop-pages a {
   color: var(--main-grey);
 }
 .shop-pages a:hover {
@@ -143,10 +143,10 @@
 .shop-filter {
   display: none !important;
 }
-@media (max-width : 500px) {
+@media (max-width: 500px) {
   .shop-flex {
     flex-direction: column;
-    align-items: flex-start ;
+    align-items: flex-start;
   }
   .shop-search {
     margin-bottom: 16px;
@@ -157,4 +157,17 @@
   .shop-filter {
     display: block !important;
   }
+}
+.page-link {
+  color: var(--main-dark) !important;
+}
+.page-link:focus {
+  box-shadow: none !important;
+  background-color: white !important;
+}
+.active > .page-link,
+.page-link.active {
+  background-color: var(--main-gold) !important;
+  border-color: var(--main-gold) !important;
+  color: white !important;
 }

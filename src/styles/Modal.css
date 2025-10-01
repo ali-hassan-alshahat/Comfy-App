@@ -1,0 +1,24 @@
+.custom-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.custom-modal-content {
+  background-color: white;
+  border-radius: 10px;
+  max-height: 100%;
+  padding: 30px;
+  width: 450px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* ✅ makes border-bottom flush */
+  display: flex;
+  flex-direction: column;
+}
