@@ -866,7 +866,7 @@ const Checkout = () => {
             <hr />
             <div className="d-flex justify-content-between fw-bold">
               <span>Total</span>
-              <span>USD ${totalAmount.toFixed(2)}</span>
+              <span>USD ${(totalAmount + 15).toFixed(2)}</span>
             </div>
           </div>
         </div>
