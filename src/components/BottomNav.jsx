@@ -255,12 +255,13 @@ export const BottomNav = () => {
                   <strong>${totalAmount.toFixed(2)}</strong>
                 </div>
                 <div>
-                  <button
+                  <Link
+                    to={"/checkout"}
                     className="btn rounded-0 border-0 fs-5 fw-semibold py-2 w-100 btn-light px-4 my-2"
                     type="button"
                   >
                     Checkout
-                  </button>
+                  </Link>
                   <Link
                     to={"/cart"}
                     className="fs-6 text-dark text-center d-flex justify-content-center view-cart"
@@ -277,7 +278,7 @@ export const BottomNav = () => {
       {/* Bottom Navigation */}
       <Row className="list-unstyled py-3 m-0">
         <div className="col-3">
-          <Link aria-label="person" to={"/"} style={{ color: "black" }}>
+          <Link aria-label="person" to={"/account"} style={{ color: "black" }}>
             <BsPersonFill size={"28px"} />
           </Link>
         </div>
