@@ -51,7 +51,7 @@ const applyTotals = (state) => {
     { total: 0, quantity: 0 },
   );
 
-  state.cartTotalAmount = total;
+  state.cartTotalAmount = total + 15;
   state.cartTotalQuantity = quantity;
 };
 
