@@ -861,7 +861,7 @@ const Checkout = () => {
             </div>
             <div className="d-flex justify-content-between">
               <span>Shipping</span>
-              <span className="text-success">Free Shipping</span>
+              <span className="text-success">15$</span>
             </div>
             <hr />
             <div className="d-flex justify-content-between fw-bold">
